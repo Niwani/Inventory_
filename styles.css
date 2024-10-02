@@ -19,7 +19,7 @@ body {
 
 h2 {
     font-size: 2rem;
-    color: blue;
+    color: aqua;
     margin-bottom: 20px;
     background-image: url(assets/fruits-fruit-food-collection-background-banner-orange-apple-appl-apples-lemon-berries-cherries-101720302.webp);
 }
@@ -54,7 +54,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: blue;
+    background-color: aqua;
     color: white;
     font-size: 1rem;
     transition: background-color 0.3s ease;
