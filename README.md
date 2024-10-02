@@ -1,1 +1,2 @@
-# Inventory_
+# Inventory_  
+JavaScript, HTML and CSS.
