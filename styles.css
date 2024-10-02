@@ -19,9 +19,9 @@ body {
 
 h2 {
     font-size: 2rem;
-    color: #4CAF50;
+    color: blue;
     margin-bottom: 20px;
-    background-image: url(fruits-fruit-food-collection-background-banner-orange-apple-appl-apples-lemon-berries-cherries-101720302.webp);
+    background-image: url(assets/fruits-fruit-food-collection-background-banner-orange-apple-appl-apples-lemon-berries-cherries-101720302.webp);
 }
 
 /* Styling the new product input section */
@@ -54,7 +54,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background-color: #4CAF50;
+    background-color: blue;
     color: white;
     font-size: 1rem;
     transition: background-color 0.3s ease;
