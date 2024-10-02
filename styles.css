@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container for the main heading */
+.heading {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    background-image: url(fruits-fruit-food-collection-background-banner-orange-apple-appl-apples-lemon-berries-cherries-101720302.webp);
+}
+
+/* Styling the new product input section */
+#newProduct {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+#newProduct h3 {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Input fields styling */
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Product list styling */
+.product ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product li button {
+    margin-left: 10px;
+}
+
+.product li button:nth-child(2) {
+    display: none; /* Hide the save button by default */
+}
+
+/* Styling for footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    #newProduct, .product li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
